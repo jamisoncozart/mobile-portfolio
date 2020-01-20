@@ -49,6 +49,9 @@ $(document).ready(function() {
     $("#projects").hide();
     $("#contact").show();
   })
+  $("#form").submit(function(event) {
+    event.preventDefault();
+  })
 })
 
   //create current-page variable
