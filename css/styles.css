@@ -14,5 +14,10 @@ footer {
 
 footer a {
   color: #000;
-  padding: 40px 40px;
+  padding: 40px 0;
+  width: 25%;
+}
+
+.navActive {
+  background-color: #aaa;
 }
