@@ -112,9 +112,12 @@ footer {
 }
 
 footer a {
-  color: #000;
   padding: 40px 0;
   width: 25%;
+}
+
+footer a, footer a:active, footer a:visited, footer a:focus {
+  color: #000;
 }
 
 .navActive {
