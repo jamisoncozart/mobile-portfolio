@@ -111,7 +111,7 @@ p, ul {
   font-size: 35px;
 }
 
-#projects .projectPanel img {
+#projects .projectPanel img, #about .aboutPanel img {
   float: right;
   height: 150px;
   width: auto;
@@ -129,6 +129,16 @@ p, ul {
 #about {
   display: none;
   margin-bottom: 200px;
+}
+
+.aboutPanel {
+  margin: 0 0 40px 0;
+}
+
+.longUl {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
 }
 
 /* Contact Page */
