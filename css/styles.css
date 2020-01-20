@@ -21,6 +21,7 @@ body {
   width: 100%;
   border-radius: 10px;
   border: 1px solid #000;
+  box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.2);
 }
 
 #homeHeader {
@@ -79,6 +80,20 @@ hr {
   width: auto;
   margin: 20px auto;
   float: left;
+}
+
+.customPanel .panel {
+  position: relative;
+  top: 0;
+  transition: top ease 0.1s;
+  box-shadow: 2px 2px 4px 0px rgba(0,0,0,0.1);
+  transition: box-shadow ease 0.1s;
+}
+
+.customPanel .panel:hover {
+  top: -8px;
+  box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.2);
+  transition: ease 0.05s;
 }
 
 /* Projects Page */
@@ -169,8 +184,9 @@ footer a {
   width: 25%;
 }
 
-footer a, footer a:active, footer a:visited, footer a:focus {
+a, a:active, a:visited, a:focus {
   color: #000;
+  text-decoration: none;
 }
 
 .navActive {

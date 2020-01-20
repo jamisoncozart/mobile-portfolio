@@ -1,7 +1,8 @@
 var currentPage = 1;
 
 $(document).ready(function() {
-  $("#homeLink").click(function() {
+  $("#homeLink").click(function(event) {
+    event.preventDefault();
     //add active/remove active class
     $("#homeLink").addClass("navActive");
     $("#projectsLink").removeClass();
@@ -12,8 +13,10 @@ $(document).ready(function() {
     $("#about").hide();
     $("#contact").hide();
     $("#home").show();  
+    currentPage = 1;
   })
-  $("#projectsLink").click(function() {
+  $("#projectsLink").click(function(event) {
+    event.preventDefault();
     //add active/remove active class
     $("#projectsLink").addClass("navActive");
     $("#homeLink").removeClass();
@@ -24,8 +27,10 @@ $(document).ready(function() {
     $("#about").hide();
     $("#contact").hide();
     $("#projects").show();
+    currentPage = 2;
   });
-  $("#aboutLink").click(function() {
+  $("#aboutLink").click(function(event) {
+    event.preventDefault();
     //add active/remove active class
     $("#aboutLink").addClass("navActive");
     $("#homeLink").removeClass();
@@ -36,8 +41,10 @@ $(document).ready(function() {
     $("#projects").hide();
     $("#contact").hide();
     $("#about").show();
+    currentPage = 3;
   });
-  $("#contactLink").click(function() {
+  $("#contactLink").click(function(event) {
+    event.preventDefault();
     //add active/remove active class
     $("#contactLink").addClass("navActive");
     $("#homeLink").removeClass();
@@ -48,10 +55,9 @@ $(document).ready(function() {
     $("#about").hide();
     $("#projects").hide();
     $("#contact").show();
+    currentPage = 4;
   })
   $("#form").submit(function(event) {
     event.preventDefault();
   })
 })
-
-  //create current-page variable
