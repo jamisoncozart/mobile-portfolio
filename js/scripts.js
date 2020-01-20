@@ -59,5 +59,6 @@ $(document).ready(function() {
   })
   $("#form").submit(function(event) {
     event.preventDefault();
+    alert("Form submission is currently unavailable. Please contact me in another way. Thank you!");
   })
 })
