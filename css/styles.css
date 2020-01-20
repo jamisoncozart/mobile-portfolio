@@ -45,7 +45,7 @@ body {
   font-weight: bold;
 }
 
-#home hr {
+hr {
   border-color: #000;
   margin-bottom: 50px;
 }
@@ -63,11 +63,11 @@ body {
   width: 47%;
 }
 
-#home h3 {
+.customPanel h3 {
   font-size: 50px;
 }
 
-#home .panel h4 {
+.panel h4 {
   font-size: 45px;
   text-align: center;
   width: 200px;
@@ -84,6 +84,24 @@ body {
 /* Projects Page */
 #projects {
   display: none;
+}
+
+p, ul {
+  font-size: 35px;
+}
+
+#projects .projectPanel img {
+  float: right;
+  height: 150px;
+  width: auto;
+  margin: 0 0 20px 40px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.projectPanel {
+  margin: 0 0 40px 0;
 }
 
 /* About Page */
