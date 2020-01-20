@@ -1,0 +1,1 @@
+//create current-page variable
