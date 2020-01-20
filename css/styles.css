@@ -84,6 +84,7 @@ hr {
 /* Projects Page */
 #projects {
   display: none;
+  margin-bottom: 200px;
 }
 
 p, ul {
@@ -107,11 +108,13 @@ p, ul {
 /* About Page */
 #about {
   display: none;
+  margin-bottom: 200px;
 }
 
 /* Contact Page */
 #contact {
   display: none;
+  margin-bottom: 200px;
 }
 
 .form-group, .form-group input, .form-control {
@@ -122,11 +125,28 @@ p, ul {
   padding: 40px 15px;
 }
 
+.formPanel {
+  margin: 0 0 40px 0;
+}
+
 #\#submitButton {
   font-size: 40px;
   padding: 20px;
   width: 100%;
   margin-top: 20px;
+}
+
+#contact a img {
+  height: 200px;
+  width: auto;
+  border-radius: 50%;
+  margin: auto;
+  border: 1px solid black;
+}
+
+#contact .col-xs-4 {
+  display: flex;
+  justify-content: center;
 }
 
 /* Footer Nav */
