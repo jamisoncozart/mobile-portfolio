@@ -14,14 +14,17 @@ body {
   align-items: center;
 }
 
-#homeHeader {
-  text-align: center;
+.customPanel {
   padding: 40px;
-  margin: 60px 0;
   background-color: #fff;
   width: 100%;
   border-radius: 10px;
   border: 1px solid #000;
+}
+
+#homeHeader {
+  text-align: center;
+  margin: 60px 0;
 }
 
 #homeHeader img {
@@ -40,6 +43,39 @@ body {
   font-size: 30px;
   font-weight: bold;
 }
+
+#homeMain .panel {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid black;
+  margin: 0 12px 20px 12px;
+  width: 47%;
+}
+
+#homeMain h3 {
+  font-size: 50px;
+}
+
+#homeMain .panel h4 {
+  font-size: 45px;
+  text-align: center;
+  width: 200px;
+  margin: auto;
+}
+
+#homeMain .panel img {
+  height: 100px;
+  width: auto;
+  margin: 20px auto;
+  float: left;
+}
+
+
+
+
+
+
 
 /* Footer Nav */
 footer {
